@@ -4,10 +4,10 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="user_tbl")
+@Table(name = "user_tbl")
 public class User {
     @Id
-    @GeneratedValue(startegy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private int id;
     private String username;
     @Column(name="user_name")

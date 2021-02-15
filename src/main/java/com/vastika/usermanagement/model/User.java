@@ -1,5 +1,7 @@
 package com.vastika.usermanagement.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
@@ -17,6 +19,7 @@ public class User {
     private String hobbies;
     @Column(name="mobile_no")
     private long mobileNo;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dob;
     private String email;
     private String comments;

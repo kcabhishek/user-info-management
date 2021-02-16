@@ -7,7 +7,7 @@
 <body>
 <div>
     <div>
-        <form action="save_user" method="post">
+        <form action="save_User" method="post">
             <div>
                 <label >User Name</label>
                 <input type="text" name="username">
